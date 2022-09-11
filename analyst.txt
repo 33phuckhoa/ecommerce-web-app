@@ -1,0 +1,53 @@
+productDB => {
+	title
+	description
+	evaluate: [
+		{
+			user, contentComment, starEvaluate, imageComment, responseSeller
+		}
+	]
+	price: {
+		intiatePrice, sellPrice	
+	}
+	review: {
+		imageReview[]
+		videoReview
+	}
+	sale: how much percent?
+	amount: {
+		total, remainingProduct
+	}
+	typeProduct[]
+	brand
+	star
+}
+
+endpoint function => {
+	createProduct: tạo sản phẩm
+	removeProduct: xóa sản phẩm
+	updateProduct: cập nhật sản phẩm
+	updateSale: giảm giá
+	repComment: trả lời bình luận người mua
+}
+
+BrandDB: {
+	brand
+	follower
+	products
+	percentResponseChat
+	star
+	timeParticipate
+	allOfTypeProduct
+	codeDiscount[]
+	Admin[]
+	ConservationChat: [
+		{
+			userChat[]
+			adminChat[]
+		}
+	]
+}
+
+AuthDB: {
+	name, email, password, ban, role	
+}

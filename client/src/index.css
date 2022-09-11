@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+.app {
+    background-color: rgb(242, 234, 234);
+    height: auto;
+}
+
+/* Login */
+.login {
+    width: 100%;
+    height: 40rem;
+    background-image: url("https://thumbs.dreamstime.com/b/banner-illustration-e-commerce-icon-set-e-commerce-background-icon-illustration-banner-209696030.jpg");
+}
+
+.h1 {
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.form {
+    width: 25rem;
+    position: absolute;
+    left: 53rem;
+    top: 2rem;
+}
+
+.btn {
+    width: 23rem;
+}
+
+.bn {
+    width: 23rem;
+    margin-left: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.cart {
+    background-color: red;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+
+.slider {
+    width: 97.3%;
+    height: 13rem;
+    cursor: pointer;
+    border-radius: 1rem
+}
+
+.img {
+    height: 16rem;
+}
+
+.img:hover {
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.slick-active {
+    width: 2rem
+}
+
+.slick-next {
+    right: 0rem;
+    width: 2.2rem;
+    background: gray;
+    height: 4rem;
+    top: 8rem;
+}
+
+.slick-next:active {
+    opacity: 0.8;
+}
+
+.slick-prev {
+    left: 0rem;
+    z-index: 20;
+    width: 2.2rem;
+    background-color: gray;
+    height: 4rem;
+    top: 8rem;
+}
+
+
+.category {
+    color: gray;
+    margin-top: 4rem;
+    width: 97.74%;
+    border-radius: 0.3rem;
+    background-color: white;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.item{
+    border: 0.5px solid rgb(221, 213, 213);
+    height: 11rem;
+    width: 7.54rem
+}
+
+.category>h3, .suggestion>h3 {
+    padding: 1rem 1rem;
+}
+
+.category img {
+    width: 6rem;
+    margin: 0.7rem;
+}
+
+.item div {
+    color: black;
+    text-align: center;
+}
+
+.item:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.suggestion {
+    color: gray;
+    margin-top: 4rem;
+    width: 97.74%;
+    border-radius: 0.3rem;
+    background-color: white
+}
+
+.sug-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-sug {
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.item-sug:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.sale {
+    background-color: orange;
+    width: 25%;
+    height: 1.2rem;
+}
+
+.notSale {
+    height: 1.2rem;
+}
+
+.product {
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+
+.detail {
+    color: gray;
+    margin-top: 2rem;
+    height: 38rem;
+    width: 97.74%;
+    border-radius: 0.3rem;
+    background-color: white;
+    display: flex;
+}
+
+.review {
+    width: 40%;
+}
+
+.infor{
+    width: 60%;
+}
+
+.price {
+    font-size: 50rem;
+    color: red;
+    margin-top: 2rem;
+}
+
+.sale1 {
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.img1 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.cover {
+    width: 7%;
+    height: 4%;
+    position: absolute;
+    background-color: transparent;
+    top: 40rem
+}
+
+.brand {
+    color: gray;
+    margin-top: 2rem;
+    height: 8rem;
+    width: 97.74%;
+    border-radius: 0.3rem;
+    background-color: white;
+    display: flex;
+}
+
+.avaluate {
+    color: gray;
+    margin-top: 2rem;
+    height: 10rem;
+    width: 97.74%;
+    border-radius: 0.3rem;
+    background-color: white;
+    display: flex; 
+}
+
+.scale>img {
+    width: 5rem;
+    height:5rem;
+    border-radius: 50%;
+}
+
+.scale {
+    margin: 1.5rem 1rem;
+    display: flex;
+}
+
+.fly {
+    animation:fly 0.8s 1;
+    -webkit-animation:fly 0.8s 1;
+    -webkit-backface-visibility: hidden;
+}
+
+
+@keyframes fly {
+    0% {
+        -moz-transform: rotate(0deg); /* Для Firefox */
+        -ms-transform: rotate(0deg); /* Для IE */
+        -o-transform: rotate(0deg); /* Для Opera */
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg); /* Для Firefox */
+        -ms-transform: rotate(360deg); /* Для IE */
+        -o-transform: rotate(360deg); /* Для Opera */
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes fly {
+    0% {
+        -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+    }
+    100% {
+        -webkit-transform: rotate(360deg); /* Для Safari, Chrome, iOS */
+    }
+}
+
+.cartItem {
+    color: gray;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    margin-left: 2rem;
+    height: auto;
+    width: 94%;
+    border-radius: 0.3rem;
+}
+
+.cat {
+    width: 100%;
+    height: 6rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.cat img {
+    width: 4rem;
+}
+
+.banners {
+    position: fixed;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    height: 6rem;
+    width: 100%;
+    left: 0;
+}
+
+.bans {
+    margin-top: 1rem;
+    display: flex
+}
+
+.c {
+    margin-right: 1rem
+}
+
+.ba {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.co:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 0.3rem;
+}
+
+.cast {
+    position: absolute;
+    width: 40rem;
+    height: 30rem;
+    background-color: whitesmoke;   
+    top: 4rem;
+    left: 19rem;
+}
+
+.bobo{
+    display: flex;
+    margin: 2rem 1rem;
+}
+
+.bobo>img {
+    width: 3rem;
+}
+
+.span:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.scroll {
+    height: 27rem;
+    overflow: scroll
+}
+
+.acc {
+    height: 40rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.navRow {
+    height: 100%;
+    width: 20%;
+    background-color: black;
+}
+
+.hover {
+    cursor: pointer;
+    color: red;
+    margin: 4rem;
+    font-size: 20px;
+    width: 100%
+}
+
+.hover:hover {
+    color: white
+}
+
+.crash {
+    color: gray;
+    height: 40rem;
+    width: 63rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    display: flex;
+}
+
+.a {
+    overflow-y: scroll;
+}
+
+.avatar {   
+    width: 5rem;
+    position: absolute;
+    right: 18rem;
+    top: 12rem
+}
+
+.hov {
+    
+}
+.information {}
+
+.cc {
+    position: absolute;
+    right: 13.1rem;
+    top: 1.2rem
+}
+
+.star {
+    color: rgb(227, 227, 29);
+}
+
+.as {
+    height: "8rem";
+    transition: 2s;
+}
+
+.row {
+    display: flex;
+    height: 19rem;
+}
+
+.avaluates {
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.load {
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.notifi {
+    position: absolute;
+    background-image: url("https://teamvietdev.com/wp-content/uploads/2018/10/teamvietdev-top-giao-dien-ecommerce-online-shopping-dep-va-mien-phi.jpg");
+    width: 20rem;
+    height: 15rem;
+    top: 3.5rem;
+    z-index: 8;
+    right: 1.3rem;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.add {
+    display: block !important
+}
+
+.remove {
+    display: none !important
+}
+
+.notifi::before{
+    width: 1rem;
+    height: 1rem;
+    background-color: blue;
+}
+
+.mess {
+    display: flex
+}
+
+.listShop {
+    background-color: white;
+    width: 30%;
+    height: 40rem;
+}
+
+.talk {
+    width: 70rem;
+    height: 0rem;
+    background-color: rgb(175, 165, 165);
+}
+
+.board {
+    height: 30rem;
+    background-color: rgb(201, 196, 196);
+    overflow-y: scroll;
+}
+
+.typing {
+    height: 0rem
+}
